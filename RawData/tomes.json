@@ -1,0 +1,198 @@
+[
+  {
+    "tome_hebrew": "א",
+    "tome_number": 1,
+    "source_id": 1200750001,
+    "folder": "tome_01",
+    "letters": 169
+  },
+  {
+    "tome_hebrew": "ב",
+    "tome_number": 2,
+    "source_id": 1200760001,
+    "folder": "tome_02",
+    "letters": 240
+  },
+  {
+    "tome_hebrew": "ג",
+    "tome_number": 3,
+    "source_id": 1200770001,
+    "folder": "tome_03",
+    "letters": 371
+  },
+  {
+    "tome_hebrew": "ד",
+    "tome_number": 4,
+    "source_id": 1200780001,
+    "folder": "tome_04",
+    "letters": 459
+  },
+  {
+    "tome_hebrew": "ה",
+    "tome_number": 5,
+    "source_id": 1200790001,
+    "folder": "tome_05",
+    "letters": 309
+  },
+  {
+    "tome_hebrew": "ו",
+    "tome_number": 6,
+    "source_id": 1200800001,
+    "folder": "tome_06",
+    "letters": 339
+  },
+  {
+    "tome_hebrew": "ז",
+    "tome_number": 7,
+    "source_id": 1200810001,
+    "folder": "tome_07",
+    "letters": 386
+  },
+  {
+    "tome_hebrew": "ח",
+    "tome_number": 8,
+    "source_id": 1200820001,
+    "folder": "tome_08",
+    "letters": 377
+  },
+  {
+    "tome_hebrew": "ט",
+    "tome_number": 9,
+    "source_id": 1200830001,
+    "folder": "tome_09",
+    "letters": 349
+  },
+  {
+    "tome_hebrew": "י",
+    "tome_number": 10,
+    "source_id": 1200840001,
+    "folder": "tome_10",
+    "letters": 417
+  },
+  {
+    "tome_hebrew": "יא",
+    "tome_number": 11,
+    "source_id": 1200850001,
+    "folder": "tome_11",
+    "letters": 429
+  },
+  {
+    "tome_hebrew": "יב",
+    "tome_number": 12,
+    "source_id": 1200860001,
+    "folder": "tome_12",
+    "letters": 476
+  },
+  {
+    "tome_hebrew": "יג",
+    "tome_number": 13,
+    "source_id": 1200870001,
+    "folder": "tome_13",
+    "letters": 476
+  },
+  {
+    "tome_hebrew": "יד",
+    "tome_number": 14,
+    "source_id": 1200880001,
+    "folder": "tome_14",
+    "letters": 583
+  },
+  {
+    "tome_hebrew": "טו",
+    "tome_number": 15,
+    "source_id": 1200890001,
+    "folder": "tome_15",
+    "letters": 453
+  },
+  {
+    "tome_hebrew": "טז",
+    "tome_number": 16,
+    "source_id": 1200900001,
+    "folder": "tome_16",
+    "letters": 374
+  },
+  {
+    "tome_hebrew": "יז",
+    "tome_number": 17,
+    "source_id": 1200910001,
+    "folder": "tome_17",
+    "letters": 360
+  },
+  {
+    "tome_hebrew": "יח",
+    "tome_number": 18,
+    "source_id": 1200920001,
+    "folder": "tome_18",
+    "letters": 532
+  },
+  {
+    "tome_hebrew": "יט",
+    "tome_number": 19,
+    "source_id": 1200930001,
+    "folder": "tome_19",
+    "letters": 418
+  },
+  {
+    "tome_hebrew": "כ",
+    "tome_number": 20,
+    "source_id": 1200940001,
+    "folder": "tome_20",
+    "letters": 315
+  },
+  {
+    "tome_hebrew": "כא",
+    "tome_number": 21,
+    "source_id": 1200950001,
+    "folder": "tome_21",
+    "letters": 465
+  },
+  {
+    "tome_hebrew": "כב",
+    "tome_number": 22,
+    "source_id": 1200960001,
+    "folder": "tome_22",
+    "letters": 463
+  },
+  {
+    "tome_hebrew": "כג",
+    "tome_number": 23,
+    "source_id": 1200970001,
+    "folder": "tome_23",
+    "letters": 360
+  },
+  {
+    "tome_hebrew": "כד",
+    "tome_number": 24,
+    "source_id": 1200980001,
+    "folder": "tome_24",
+    "letters": 348
+  },
+  {
+    "tome_hebrew": "כה",
+    "tome_number": 25,
+    "source_id": 1200690001,
+    "folder": "tome_25",
+    "letters": 196
+  },
+  {
+    "tome_hebrew": "כו",
+    "tome_number": 26,
+    "source_id": 1200700001,
+    "folder": "tome_26",
+    "letters": 419
+  },
+  {
+    "tome_hebrew": "כז",
+    "tome_number": 27,
+    "source_id": 1200710001,
+    "folder": "tome_27",
+    "letters": 564
+  },
+  {
+    "tome_hebrew": "כח",
+    "tome_number": 28,
+    "source_id": 1200720001,
+    "folder": "tome_28",
+    "letters": 415
+  }
+]
