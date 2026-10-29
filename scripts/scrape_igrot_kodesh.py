@@ -25,6 +25,7 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from detect_language import detect_language  # noqa: E402
 from hebrew_numerals import hebrew_to_int  # noqa: E402
 
 API = "https://www.chabadlibrary.org/books/api/main"
@@ -139,6 +140,7 @@ def save_letter(tome, item, out_dir):
         "pages": pages,
         "source_id": item["id"],
         "source_url": f"{SITE}{item['id']}",
+        "language": detect_language(content),
         "content": content,
         "notes": notes,
         "footnotes": footnotes,

@@ -34,10 +34,22 @@ RawData/
   "pages": ["קמא*"],            // page markers that appear in the letter
   "source_id": 1200750143,
   "source_url": "https://www.chabadlibrary.org/books/1200750143",
+  "language": "he",             // "he" | "yi" | "mixed" | "en" | "fr" | "unknown" (see below)
   "content": "...",             // the letter itself, plain text, paragraphs separated by blank lines
   "notes": "...",               // editor's notes printed after the letter (igroys_comment)
   "footnotes": "..."            // footnotes ("הערות"), when the site has them
 }
+```
+
+## Language
+
+`language` is a heuristic guess made by `scripts/detect_language.py` from common
+function words (and Yiddish word forms for short letters). Roughly: 9,560 `he`,
+1,329 `yi`, 153 `mixed` (Hebrew and Yiddish together), 4 `fr`, 1 `en`, and 15
+`unknown` (too short to tell). Re-tag all files with:
+
+```bash
+python3 scripts/detect_language.py
 ```
 
 To refresh or resume the download (existing files are skipped):
