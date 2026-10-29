@@ -46,9 +46,8 @@ RawData/
 `language` is a heuristic guess made by `scripts/detect_language.py` from common
 function words (and Yiddish word forms for short letters). Letters the
 heuristic couldn't decide were classified by hand in
-`scripts/language_overrides.json`. Counts: 9,573 `he`, 1,329 `yi`, 153 `mixed`
-(Hebrew and Yiddish together), 4 `fr`, 2 `en`, and 1 `unknown` (tome 18,
-letter ו'תתקסב, which has only an editor's note and no letter text).
+`scripts/language_overrides.json`. Counts: 9,574 `he`, 1,329 `yi`, 153 `mixed`
+(Hebrew and Yiddish together), 4 `fr`, and 2 `en`.
 Re-tag all files with:
 
 ```bash
