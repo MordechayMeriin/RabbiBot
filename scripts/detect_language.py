@@ -62,11 +62,17 @@ def detect_language(text):
     return "yi" if share > 0.7 else "he" if share < 0.3 else "mixed"
 
 
+# Manual classifications (by "tome_NN/letter_NNNNN") for letters the heuristic can't decide.
+OVERRIDES_FILE = Path(__file__).resolve().parent / "language_overrides.json"
+
+
 def tag_files(root):
+    overrides = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8")) if OVERRIDES_FILE.exists() else {}
     counts = {}
     for path in sorted(Path(root).glob("tome_*/letter_*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
-        lang = detect_language(record["content"])
+        rel = f"{path.parent.name}/{path.stem}"
+        lang = overrides.get(rel) or detect_language(record["content"])
         counts[lang] = counts.get(lang, 0) + 1
         if record.get("language") == lang:
             continue
