@@ -45,9 +45,11 @@ RawData/
 
 `language` is a heuristic guess made by `scripts/detect_language.py` from common
 function words (and Yiddish word forms for short letters). Letters the
-heuristic couldn't decide were classified by hand in
-`scripts/language_overrides.json`. Counts: 9,574 `he`, 1,329 `yi`, 153 `mixed`
-(Hebrew and Yiddish together), 4 `fr`, and 2 `en`.
+heuristic couldn't decide, and every letter it marked `mixed`, were reviewed by
+hand; those decisions live in `scripts/language_overrides.json`. A Hebrew letter
+with a few Yiddish sentences or a Yiddish quotation is `he`, and vice versa;
+`mixed` is kept only where both languages carry a substantial part of the
+letter. Counts: 9,718 `he`, 1,332 `yi`, 6 `mixed`, 4 `fr`, 2 `en`.
 Re-tag all files with:
 
 ```bash
